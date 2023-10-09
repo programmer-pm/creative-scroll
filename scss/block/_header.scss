@@ -1,0 +1,20 @@
+.hero-section {
+}
+.hero {
+	 // пропацаналная ширина
+	width: calc($index * 36); 
+	position: absolute;
+	left: 37vw;
+	top: 8vh;
+	//z-index: -1;
+}
+.header__main {
+	height: 100vh;
+}
+.header__title {
+	font-size: calc($index * 8); // пропацаналная размер шрифта
+	position: absolute;
+	width: min-content; // позицианируется от самой длиной буквы
+	bottom: 12vh;
+	line-height: .9;
+}

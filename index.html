@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creative scroll</title>
+	<script src="./libs/gsap/gsap.min.js" defer></script>
+	<script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+	<!-- для анимации -->
+	<script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+	<!-- для плавного скрола-->
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/app.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<header class="hero-section">
+				<img  data-speed=".6" class='hero' src="./img/hero.png" alt="">
+				<!--!data-leg=".7" -->
+				<div class="container">
+					<div class="header__main">
+						<h1 data-speed=".75" class='header__title'>creative scroll</h1>
+					</div>
+				</div>
+			</header>
+			<div class="portfolio">
+				<main class="gallery">
+					<div data-speed=".9" class="gallery__left">
+
+						<img class='gallery__item' src="./img/work/1.jpg" alt="">
+						<img class='gallery__item' src="./img/work/2.jpg" alt="">
+						<div class="text__block gallery__item">
+							<h2 class='text__block___title'>Creative floating scroll with amazing parallax effect</h2>
+							<p class="text__block__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, quis!</p>
+						</div>
+						<img class='gallery__item' src="./img/work/6.jpg" alt="">
+
+					</div>
+					<div data-speed="1.1" class="gallery__right">
+						<div class="text__block gallery__item">
+							<h2 class='text__block___title'>Creative floating scroll with amazing parallax effect</h2>
+							<p class="text__block__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, quis!</p>
+						</div>
+
+						<img class='gallery__item' src="./img/work/4.jpg" alt="">
+						<img class='gallery__item' src="./img/work/5.jpg" alt="">
+						<img class='gallery__item' src="./img/work/3.jpg" alt="">
+
+					</div>
+				</main>
+			</div>
+		</div>
+
+
+		<!--		<main class="main"></main>
+		<footer class="footer"></footer>-->
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.portfolio {
+}
+
+.gallery {
+	display: flex;
+	padding: calc($index * 8) 0;
+	& > * {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.text__block {
+	color: $color-text;
+	position: relative;
+}
+
+.text__block___title {
+	font-size: 2rem;
+	line-height: 2.4rem;
+	color: $color-header;
+	margin-bottom: 1.5rem;
+}
+.text__block__p {
+	line-height: 1.75;
+}
+
+.gallery__item {
+	margin-bottom: $gallery-gap;
+	max-width: calc($index * 21);
+	max-height: 180vh;
+	border-radius: 8px;
+}
+
+.gallery__left {
+	margin-top: calc($gallery-gap * 1.75);
+}
+
+.gallery__right .gallery__item {
+	margin-bottom: 0;
+	margin-top: $gallery-gap;
+}

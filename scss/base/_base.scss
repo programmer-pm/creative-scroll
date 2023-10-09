@@ -1,0 +1,72 @@
+//@import url(/fonts/Roboto/Roboto-Light.ttf);
+
+@font-face {
+	font-family: outfit-c;
+	src: url(../fonts/outfit-regular.woff2);
+}
+@font-face {
+	font-family: Raleway-c;
+	src: url(../fonts/raleway-regular.woff2);
+	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: $font-accent;
+}
+
+//! will change
+.content, .hero, .gallery > *, .header__main {
+	will-change: transform;
+} 
+
+
+body{
+	font-family: $font-accent;
+	background: url(../img/bg.jpg) 50px;
+	color: $white;
+	overflow-x: hidden;
+}
+
+.none{
+	display: none !important;
+}
+a{
+	color: inherit;
+	transition: all .8s ease 0s;
+}
+
+.container{
+	padding: 0 7vw;	
+}
+
+.text-right{
+	text-align: right;
+}
+
+.visual-hidden{
+	height: 1px;
+	overflow: hidden;
+	width: 1px;
+
+	position: absolute;
+
+
+	clip: rect(1px,1px,1px,1px);
+	clip: rect(1px,1px,1px,1px);
+	clip-path: inset(50%);
+
+
+	white-space: nowrap;
+}
+
+.wrapper{
+}
+
+.main{
+	flex: 1 1 auto;
+}
